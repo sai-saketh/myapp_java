@@ -15,7 +15,7 @@ public class GreetingController {
 
     }
     @GetMapping("/hello")
-    public String wish(@RequestParam(value="name", defaultValue = "sai") String name){
+    public String wish(@RequestParam(value="name", defaultValue = "Welcome") String name){
     return String.format("Hello %s", name);
     }
 

@@ -7,7 +7,7 @@ public class Hello {
         return Greeting;
     }
     public Hello(){
-        Greeting = "Sai";
+        Greeting = "Hello, Welcome to My Website";
     }
     public String helo(){
         return Greeting;
